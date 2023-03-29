@@ -43,7 +43,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Aims
+# Objectives
 
 **Stratify** selected portions of the dwelling sampling frame in the **Metropolitan Region**, identifying PSU of **high, medium and low** stratum, using satellite images and  **visual recognition**.
 
@@ -59,7 +59,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Aims
+# Objectives
 
 .center[<img src="imagenes/ejemplo_upm.png" width="600">]
 
@@ -102,7 +102,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Problem and aims
+# Problem and objectives
 
 --
 
@@ -287,7 +287,7 @@ background-position: 100% 0%
 
 --
 
-- Our classifier obtains an 80% accuracy, **predicting the absence of the attribute in all cases**.
+- Our classifier obtains an 80% F1-score, **predicting the absence of the attribute in all cases**.
 
 --
 
