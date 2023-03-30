@@ -4,8 +4,8 @@
     <title>Presentation Mentoring DS</title>
     <meta charset="utf-8" />
     <meta name="author" content="" />
-    <meta name="date" content="2023-03-29" />
-    <script src="presentacion_avance_files/header-attrs-2.20/header-attrs.js"></script>
+    <meta name="date" content="2023-03-30" />
+    <script src="presentacion_avance_files/header-attrs-2.17/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
@@ -38,7 +38,7 @@ background-position: 100% 0%
 
 # Objectives
 
-**Stratify** selected portions of the dwelling sampling frame in the **Metropolitan Region**, identifying PSU of **high, medium and low** stratum, using satellite images and  **visual recognition**.
+**Stratify** selected portions of the dwelling sampling frame in the **Metropolitan Region**, identifying PSU of **high, medium and low** strata, using satellite images and  **visual recognition**.
 
 --
 
@@ -68,12 +68,12 @@ background-position: 100% 0%
 
 - What is a **sampling frame**?
 
-    - It is a list where it is possible to identify all the units
+    - It is a list that includes all the units of a population
     - We will work with the dwellings sampling frame
 
 --
 
-- How often is the sampling Frame updated?
+- How often is the sampling frame updated?
 
     - After each Population and Housing Census (~10 years)
     - Stratification takes about 2 more years
@@ -108,8 +108,8 @@ background-position: 100% 0%
     - The Censuses do not ask for income due to its difficulty of capture
     - It has been stratified with variables that are considered a *proxy* of well-being
         - Percentage of people in higher education at the PSU
-        - Occupancy rate at the PSU
-        -	Percentage of homes with a high materiality index in the PSU
+        - Employment rate at the PSU
+        -	Percentage of households with a high materiality index
         -	Total children born
 
 --
@@ -117,8 +117,8 @@ background-position: 100% 0%
 - in summary:
 
     - The methodology is **slow to update**
-    - The variables available for the procedure are **inadequate**
-    - The methodology is questioned: **non-structural variables**
+    - The variables available for the procedure are not so good
+    - The methodology is can be criticized: **non-structural variables**
 
 
 
@@ -131,7 +131,7 @@ background-position: 100% 0%
 
 # Description of data
 
-- The training set is made up of satellite image clippings that each represent a PSU.
+- The training set is made up of satellite image croppings of PSUs.
 
 --
 
@@ -196,7 +196,7 @@ background-position: 100% 0%
 
 # Labels
 
-PSU Labelling:
+PSU labeling:
 
 .center[&lt;img src="imagenes/psu.PNG" width="600"&gt;]
 
@@ -225,7 +225,7 @@ background-position: 100% 0%
 
 --
 
-4. PSU labelling &amp;#9997;
+4. PSU labeling &amp;#9997;
 
 --
 
@@ -276,11 +276,11 @@ background-position: 100% 0%
 
 --
 
-- The **labelling is not trivial**. It implies a deep knowledge of income measurement in surveys.
+- The **labeling is not trivial**. It implies a deep knowledge of income measurement in surveys.
 
 --
 
-- Our classifier obtains an 80% F1-score, **predicting the absence of the attribute in all cases**.
+- Our classifier obtains F1-score of 0 (), **predicting the absence of the attribute in all cases**.
 
 --
 
