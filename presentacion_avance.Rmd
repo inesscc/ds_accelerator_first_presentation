@@ -61,7 +61,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Objectives
+# Objective
 
 **Stratify** selected portions of the dwelling sampling frame in the **Metropolitan Region**, identifying PSU of **high, medium and low** strata, using satellite images and  **visual recognition**.
 
@@ -91,21 +91,21 @@ background-position: 100% 0%
 # Context
 
 
-- What is a **sampling frame**?
+- **What is a sampling frame**?
 
     - It is a list that includes all the units of a population
     - We will work with the dwellings sampling frame
 
 --
 
-- How often is the sampling frame updated?
+- **How often is the sampling frame updated?**
 
     - After each Population and Housing Census (~10 years)
     - Stratification takes about 2 more years
 
 --
   
-- What is stratification and what is it for?
+- **What is stratification and what is it for?**
 
     - It is the clustering of the PSU according to homogeneous socioeconomic groups
     - In sociology and economics it is a proxy for material well-being
@@ -122,13 +122,8 @@ background-position: 100% 0%
 
 # Problem and objectives
 
---
 
-- This work seeks to stratify the sampling frame at the PSU level
-
---
-
-- What is the problem currently?
+- **Problems associated to the variables**
 
     - The Censuses do not ask for income due to its difficulty of capture
     - *Proxy* variables of well-being
@@ -139,10 +134,10 @@ background-position: 100% 0%
 
 --
 
-- in summary:
+- **in summary:**
 
     - The methodology is **slow to update**
-    - The variables available for the procedure are not so good
+    - We are using proxy variables
     - The methodology can be criticized: **non-structural variables**
 
 
@@ -164,7 +159,7 @@ background-position: 100% 0%
 
 --
 
-- Total of **1843 images** for training.
+- ~**1800 images** for training (and testing).
 
 --
 
@@ -223,7 +218,7 @@ background-position: 100% 0%
 
 PSU labeling:
 
-.center[<img src="imagenes/psu.PNG" width="600">]
+.center[<img src="imagenes/psu.PNG" width="700">]
 
 
 
@@ -287,28 +282,6 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Workflow
-
-### Focus on the the workflow 
-
---
-
-- Automation of image downloading (almost ready)  
-
-- Labeling (automation in progress)
-
-- Data preprocessing
-
-- Training (basic model and fine-tuning)
-
-- Testing 
-
----
-
-background-image: url("imagenes/fondo2.PNG")
-background-size: contain;
-background-position: 100% 0%
-
 # Main challenges
 
 
@@ -342,7 +315,7 @@ confusion_matrix
 
 --
 
-- **Integration of known external information** to the images, such as the district.
+- **Integration of external information** to the images, such as the district.
 
 --
 
